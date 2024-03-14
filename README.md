@@ -13,4 +13,15 @@ pnpm create vite
 配置 .prettierrc.js
 
 # husky 
+
 安装 npx mrm@2 lint-staged
+
+# 自动化文档
+
+pnpm i -D vitepress
+
+# 样式体系
+
+pnpm install -D sass tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p

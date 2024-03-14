@@ -1,0 +1,31 @@
+{
+  "hash": "c39bd71e",
+  "configHash": "6f8aa21e",
+  "lockfileHash": "5b44f3dd",
+  "browserHash": "324fe0f4",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/.pnpm/vue@3.4.21_typescript@5.4.2/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "93429b97",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.0.17_vue@3.4.21/node_modules/@vue/devtools-api/dist/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "76fb9fe0",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/core": {
+      "src": "../../../../node_modules/.pnpm/@vueuse+core@10.9.0_vue@3.4.21/node_modules/@vueuse/core/index.mjs",
+      "file": "vitepress___@vueuse_core.js",
+      "fileHash": "47d80127",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-RVDMA4KA": {
+      "file": "chunk-RVDMA4KA.js"
+    }
+  }
+}
