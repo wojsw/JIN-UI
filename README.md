@@ -20,8 +20,22 @@ pnpm create vite
 
 pnpm i -D vitepress
 
+安装一个插件 pnpm i -D vitepress-theme-demoblock
+
 # 样式体系
 
 pnpm install -D sass tailwindcss postcss autoprefixer
 
 npx tailwindcss init -p
+
+variable.scss 全局样式变量（src目录下）
+
+xx-base.scss 基本配置 
+
+xx-config.scss 根据不同参数生成不同配置
+
+# tsx in vue
+
+pnpm i @vitejs/plugin-vue-jsx -D
+
+配置vite.config.ts

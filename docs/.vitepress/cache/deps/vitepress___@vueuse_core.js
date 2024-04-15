@@ -1,4 +1,10 @@
 import {
+  del,
+  isVue2,
+  isVue3,
+  set
+} from "./chunk-SCEJWNTS.js";
+import {
   Fragment,
   TransitionGroup,
   computed,
@@ -33,27 +39,7 @@ import {
   version,
   watch,
   watchEffect
-} from "./chunk-RVDMA4KA.js";
-
-// node_modules/.pnpm/vue-demi@0.14.7_vue@3.4.21/node_modules/vue-demi/lib/index.mjs
-var isVue2 = false;
-var isVue3 = true;
-function set(target, key, val) {
-  if (Array.isArray(target)) {
-    target.length = Math.max(target.length, key);
-    target.splice(key, 1, val);
-    return val;
-  }
-  target[key] = val;
-  return val;
-}
-function del(target, key) {
-  if (Array.isArray(target)) {
-    target.splice(key, 1);
-    return;
-  }
-  delete target[key];
-}
+} from "./chunk-MX6CVUWN.js";
 
 // node_modules/.pnpm/@vueuse+shared@10.9.0_vue@3.4.21/node_modules/@vueuse/shared/index.mjs
 function computedEager(fn, options) {

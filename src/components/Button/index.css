@@ -1,0 +1,53 @@
+.jsw-button {
+  cursor: pointer;
+  border: 1px solid;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.jsw-button:hover {
+  opacity: 0.8;
+}
+
+.jsw-button:active {
+  opacity: 1;
+}
+
+.jsw-button + .jsw-button {
+  margin-left: 10px;
+}
+
+.jsw-button--default {
+  color: #606266;
+  background: #fff;
+  border-color: #dcdfe6;
+}
+
+.jsw-button--primary {
+  background: #1890ff;
+  border-color: #1890ff;
+}
+
+.jsw-button--success {
+  background: #52c41a;
+  border-color: #52c41a;
+}
+
+.jsw-button--info {
+  background: #909399;
+  border-color: #909399;
+}
+
+.jsw-button--warning {
+  background: #faad14;
+  border-color: #faad14;
+}
+
+.jsw-button--danger {
+  background: #f5222d;
+  border-color: #f5222d;
+}

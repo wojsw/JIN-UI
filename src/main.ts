@@ -4,4 +4,6 @@ import App from "./App.vue"
 
 import "./index.scss"
 
+// import Button from './button'
+
 createApp(App).mount("#app")

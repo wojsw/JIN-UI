@@ -1,3 +1,4 @@
+import { demoblockPlugin, demoblockVitePlugin } from 'vitepress-theme-demoblock'
 export default {
   themeConfig: {
     sidebar: [
@@ -9,5 +10,13 @@ export default {
         ]
       }
     ]
+  },
+  markdown: {
+    config: (md) => {
+      md.use(demoblockPlugin)
+    }
+  },
+  vite: {
+    plugins: [demoblockVitePlugin()]
   }
 }

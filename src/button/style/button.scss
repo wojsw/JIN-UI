@@ -1,0 +1,16 @@
+@use "./button-config.scss";
+
+@import "./button-base.scss";
+
+.s-btn {
+  @include button-base;
+
+  // type
+  @include button-variant(button-config.$type);
+
+  // size
+  @include button-variant(button-config.$size);
+
+  // hover 等伪类
+  @include button-variant(button-config.$type, true);
+}
