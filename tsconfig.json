@@ -13,12 +13,14 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
-
+    "types": ["vitest/globals"],
+    
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"],
   "references": [{ "path": "./tsconfig.node.json" }]

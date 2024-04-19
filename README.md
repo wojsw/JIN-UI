@@ -39,3 +39,37 @@ xx-config.scss 根据不同参数生成不同配置
 pnpm i @vitejs/plugin-vue-jsx -D
 
 配置vite.config.ts
+
+# 单元测试
+
+pnpm i -D vitest happy-dom @testing-library/vue
+
+vite.config.ts 配置
+
+# 全量打包 按需打包
+
+script/build.js script/entry.ts 配置vite构建选项
+
+# 发布组件到npm
+
+npm config set https://registry.npmjs.org
+
+npm adduser
+
+npm login
+
+npm publish
+
+chmod +x publish.sh;./publish.sh; 配置脚本
+
+# cli开发
+
+pnpm i -D commander inquirer fs-extra kolorist
+
+commander 命令
+
+inquirer 交互
+
+kolorist 颜色
+
+fs-extra 操作文件系统

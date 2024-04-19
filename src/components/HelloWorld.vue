@@ -3,7 +3,7 @@ import { ref } from 'vue'
 
 defineProps<{ msg: string }>()
 
-import SButton from './../button/src/button';
+// import SButton from './../button/src/button';
 </script>
 
 <template>

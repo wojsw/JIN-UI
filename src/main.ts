@@ -3,7 +3,7 @@ import "./style.css"
 import App from "./App.vue"
 
 import "./index.scss"
-
+import JinUi from '../build'
 // import Button from './button'
 
-createApp(App).mount("#app")
+createApp(App).use(JinUi).mount("#app")
