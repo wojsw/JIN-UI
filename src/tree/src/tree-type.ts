@@ -16,11 +16,11 @@ export interface ITreeNode {
 
     disableSelect?: boolean,
     disableCheck?: boolean,
-    disableToggle: boolean
+    disableToggle?: boolean
 }
 
 export interface IInnerTreeNode extends ITreeNode {
-    parentId: string,
-    level: number,
+    parentId?: string,
+    level?: number,
     isLeaf?: boolean
 }
